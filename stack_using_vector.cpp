@@ -13,7 +13,7 @@ public:
         return v.size()==0;
     }
     void pop(){
-        while(!empty()){
+        if(!empty()){
             v.pop_back();
         }
     }
